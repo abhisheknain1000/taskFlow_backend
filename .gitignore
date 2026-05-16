@@ -1,0 +1,37 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Environment Variables (CRITICAL) ---
+# Never commit your secrets!
+.env
+.env.local
+*.env
+
+# --- Build Outputs ---
+# For TypeScript/Compiled projects
+dist/
+build/
+*.tsbuildinfo
+
+# --- Runtime & Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- Database (if using local DBs) ---
+*.sqlite
+.db
+
+# --- Debugging ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Nodemon ---
+.nodemonignore
