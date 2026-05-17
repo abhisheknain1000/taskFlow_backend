@@ -10,5 +10,5 @@ connectDB();
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`[SYSTEM] Synapse Engine active on port ${PORT}`);
+  console.log(`taskFlow backend active on port ${PORT}`);
 });
