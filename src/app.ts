@@ -18,7 +18,7 @@ app.use(
 
     origin: [
       "http://localhost:3000",  
-      "https://taskflow-ten-delta.vercel.app/",
+      "https://taskflow-ten-delta.vercel.app",
     ],
 
     credentials: true,
