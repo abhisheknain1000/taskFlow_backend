@@ -5,7 +5,7 @@ node_modules/
 # Never commit your secrets!
 .env
 .env.local
-*.env
+!.env.example
 
 # --- Build Outputs ---
 # For TypeScript/Compiled projects

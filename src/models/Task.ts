@@ -51,6 +51,12 @@ const taskSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: 'User',
       required: true
+    },
+
+    project: {
+      type: Schema.Types.ObjectId,
+      ref: 'Project',
+      default: null
     }
   },
   { timestamps: true }
